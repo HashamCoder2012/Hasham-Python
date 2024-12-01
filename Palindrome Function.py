@@ -9,5 +9,5 @@ def isPalindrome(string):
         right_pos -=1
         return True
 print("Is this a Palindrome?")
-print(isPalindrome('Antony'))
+print(isPalindrome(''))
 
