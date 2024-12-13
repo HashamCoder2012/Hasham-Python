@@ -1,11 +1,11 @@
-class Rectangle():
+class circle():
     def __init__(self,l, w):
         self.length =l
         self.width = w
 
-    def rectangle_area(self):
+    def circle_area(self):
         return self.length*self.width
     
-newRectangle = Rectangle(12,10)
+newCircle = circle(360)
 print("Dimension of Rectangle - length : %d Width : %d" %(newRectangle.length, newRectangle.width))
-print("Area of Rectangle :",newRectangle.rectangle_area())
+print("Area of circle :",newCircle.Circle_area())
