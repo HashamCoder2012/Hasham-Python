@@ -14,7 +14,6 @@ def initial_phonebook():
                 temp.append(int(input("Enter number*: ")))
         phone_book.append(temp)
 
-    print(phone_book)
     return phone_book
 print("Welcome to PhoneBook app")
 pb=initial_phonebook()
