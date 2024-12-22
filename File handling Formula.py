@@ -1,0 +1,8 @@
+f1=open("C:/Users/Khurram shahzad.NAJIB-SMA/Desktop/Hasham file.txt","w")
+f1.write("Hello world  I am hasham ,")
+f1.close()
+f1=open("C:/Users/Khurram shahzad.NAJIB-SMA/Desktop/Hasham file.txt","a")
+f1.write("Ronaldo is the Greatest of all Time")
+f1.close()
+f2=open("C:/Users/Khurram shahzad.NAJIB-SMA/Desktop/Hasham file.txt","r")
+print(f2.read())

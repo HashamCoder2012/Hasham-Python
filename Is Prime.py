@@ -1,5 +1,4 @@
 num=171
-
 flag=False
 if num+1:
     #check for factors
