@@ -1,6 +1,7 @@
-num=9
+num=171
+
 flag=False
-if num>1:
+if num+1:
     #check for factors
     for i in range(2,num):
         if(num%i)==0:
@@ -8,6 +9,6 @@ if num>1:
             break
 
 if flag:
-    print(num,"is not a prime number")
+    print(num,"is not a dysarium number")
 else:
-    print(num,"is a prime number")
+    print(num,"is a dysarium number")
