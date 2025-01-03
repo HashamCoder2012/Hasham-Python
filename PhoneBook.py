@@ -1,6 +1,6 @@
 import sys
 def initial_phonebook():
-    rows, cols = int(input("Please enter initial number of contacts: ")),2
+    rows, cols = int(input("Please enter initial number of contacts: ")),3
     phone_book =[]
     print(phone_book)
     for i in range(rows):
@@ -22,6 +22,8 @@ def add_contact(pb):
             dip.append(str(input("Enter name: ")))
         if i == 1:
             dip.append(int(input("Enter number: ")))
+        if i ==2:
+            dip.append(int(input("Enter Number: ")))
     pb.append(dip)
     return pb
 print("Welcome to PhoneBook app")
