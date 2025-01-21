@@ -1,18 +1,18 @@
-import random 
-number=random.randint(1,10)
-number_of_guesses=0
-while number_of_guesses< 5:
-    guess=int(input("Welcome to number game.Enter yor guess(1,10) :"))
-    number_of_guesses=number_of_guesses +1
+import random
+num=random.randint(1,10)
+num_guesses=0
+while(num_guesses<5):
+    user=int(input("Welcome to the number game. Enter your guess  (1,10)"))
+    num_guesses+=1
 
-    if guess<number:
-        print("Your guess is too low")
-    if guess>number:
-        print('Your guess is too high')
-    if guess==number:
+    if user<num:
+        print("your guess is too low")
+    if user>num:
+        print("Your guess is too high")
+    if user==num:
         break
-    
-if guess==number:
-    print('You have guessed the number in'+str(number_of_guesses) +'tries!')
+
+if num==user:
+    print("You guessed the number in",num_guesses,"tries")
 else:
-    print("You did not guess the number,The number was",number)
+    print("You couldnt guess the number.The number is",num)

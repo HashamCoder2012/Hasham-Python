@@ -5,3 +5,6 @@ def get_users_choice():
 
 def get_computers_choice():
     computer_choice=input('Ronaldo','Messi')
+    if ('Ronaldo'then say correct)
+    if ('Messi'then say incorrect)
+        return computers_choice
