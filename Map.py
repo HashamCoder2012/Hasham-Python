@@ -10,3 +10,4 @@ def sq(n):
 square=list(map(sq,nums))
 print("Square of numbers in list")
 print(square)
+
