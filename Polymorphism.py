@@ -1,23 +1,23 @@
-class India():
-    def capital(self):
-        print("New Dehli ia the capital of India")
-    def language(self):
-        print("Hindi is the most widely spoken language")
-    def type(self):
-        print("India is developing country")
-class USA():
-    def capital(self):
-        print("Watshington ,DC is the capital")
-    def language(self):
-        print("English is the primary language")
-    def type(self):
+class lamborgini():
+    def Maxspeed(self):
+        print("the max speed is 221mph")
+    def founded(self):
+        print("it was founded in 1963")
+    def founder(self):
+        print("Ferrucio Lamborgini founded lamborgini")
+class ferrari():
+    def Maxspeed(self):
+        print("the max speed is 200mph")
+    def founded(self):
+        print("founded in 1988")
+    def founder(self):
         print(self)
-        print("Usa is already a developed country")
+        print("founded by Enzo Ferrari")
 
-obj_ind=India()
-obj_usa=USA()
+obj_ind=lamborgini()
+obj_usa=ferrari()
 for country in(obj_ind,obj_usa):
-    country.capital()
-    country.language()
-    country.type()
+    country.Maxspeed()
+    country.founded()
+    country.founder()
     
