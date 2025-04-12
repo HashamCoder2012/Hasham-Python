@@ -7,6 +7,6 @@ while not done:
         if event.type==pygame.QUIT:
             done=True
     pygame.draw.rect(screen,(0,125,225),pygame.Rect(30,30,60,60))
-    pygame.draw.circle(screen,(100,100,110),(200,150),50,3)
+    pygame.draw.circle(screen,(100,100,110),(300,150),50,3)
     pygame.draw.circle(screen,(100,100,110),(30,150),50)
     pygame.display.flip()
