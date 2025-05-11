@@ -5,7 +5,7 @@ class flashcard:
     def __str__(self):
         return self.word+'('+self.meaning+')'
 flash=[]
-print("Welcome tp flascard application")
+print("Welcome to flashcard application")
 while(True):
     word=input("Enter the name you want to add to flashcard:")
     meaning=input("enter the meaning of the word: ")
