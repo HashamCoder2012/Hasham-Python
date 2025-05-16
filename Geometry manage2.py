@@ -1,0 +1,11 @@
+from tkinter import *
+root=Tk()
+root.geometry("400x400")
+root.title("age calculator app")
+lbl=Label(root,text="Month",bg="green")
+lbl2=Label(root,text="Year",bg="blue")
+lbl3=Label(root,text="Date",bg="purple")
+lbl=Entry(lbl)
+lbl2=Entry(lbl2)
+lbl3=Entry(lbl3)
+root.mainloop()
