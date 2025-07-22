@@ -1,0 +1,15 @@
+create table supplier(
+sno text primary key,
+sname text,
+status integer,
+city text
+);
+
+insert into supplier values
+('s1','sminth',20,'london'),
+('s2','jones',10,'paris'),
+('s3'.'baber',30,'paris'),
+('s4','clarke',20,'london'),
+('s5','sandy',30,'athens');
+
+select sname,status from supplier;
